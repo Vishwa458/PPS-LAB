@@ -7,6 +7,7 @@ int main()
     while(num>0)
     {
         rem=num%10;
+        //printf("%d",rev);
         rev=rev*10+rem;
         num=num/10;
     }
