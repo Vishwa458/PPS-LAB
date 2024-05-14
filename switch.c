@@ -23,7 +23,7 @@ int main()
                 break;
         //case '+': printf("sum is: %d",no1+no2);
                // break;
-               default:printf("please enter the correct operation");
+        default:printf("please enter the correct operation");
                break;
 
     }
