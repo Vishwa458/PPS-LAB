@@ -1,3 +1,4 @@
+//print all the leap years upto a given year
 #include<stdio.h>
 int main()
 {
