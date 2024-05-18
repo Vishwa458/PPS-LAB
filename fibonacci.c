@@ -1,4 +1,4 @@
-//print fibonacci series upto given N number.
+//program to print fibonacci series upto a given N number.
 #include<stdio.h>
 int main()
 {   

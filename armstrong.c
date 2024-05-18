@@ -1,3 +1,4 @@
+//program to print all the armstrong numbers opto 1000
 #include<stdio.h>
 #include<math.h>
 int main()

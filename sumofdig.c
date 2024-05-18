@@ -1,3 +1,4 @@
+//program to print sum of all the digits of a given number
 #include<stdio.h>
 int main()
 {
