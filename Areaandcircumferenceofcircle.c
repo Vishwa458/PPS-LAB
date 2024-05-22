@@ -7,7 +7,7 @@ int main(){
     circumference=2*pi*r;
 
     printf("Area = %.2f",area);
-    printf("Circumferenec = %.2f",circumference);
+    printf("\nCircumferenec = %.2f",circumference);
 
     return 0;
 }
