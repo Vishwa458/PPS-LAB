@@ -1,3 +1,4 @@
+//Write a program to calculate area and circumference.
 #include<stdio.h>
 int main(){
     float pi=3.14,r=0.0,area=0.0,circumference=0.0;
