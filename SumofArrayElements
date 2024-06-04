@@ -2,9 +2,10 @@
 #include<conio.h>
 void main()
 {
-  int n,marks[],i,sum=0;
+  int n=0,i,sum=0;
   printf("enter the size of an 1.D array");
-  scanf("%d",n);
+  scanf("%d",&n);
+  int marks[n];
   printf("enter elements of array: ");
   for(i=0;i<n;i++)
   {
