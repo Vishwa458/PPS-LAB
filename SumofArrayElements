@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  int n,marks[],i,sum=0;
+  printf("enter the size of an 1.D array");
+  scanf("%d",n);
+  printf("enter elements of array: ");
+  for(i=0;i<n;i++)
+  {
+    scanf("%d",&marks[i]);
+    sum=sum+marks[i];
+  }
+  printf("sum of array elements is %d ",sum);
+  //getch();
+  //return 0;
+}
