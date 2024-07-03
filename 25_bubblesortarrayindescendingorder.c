@@ -31,9 +31,10 @@ int main(){
 
     // Printing sorted array
     printf("Sorted array in descending order\n");
-    for(i = 0; i < size; i++) {
+    for(i = 0; i < size; i++) 
+    {
         printf("%d ", numbers[i]);
     }
 
-    return 0;
+    return 0;            //return 0 to indicate successful execution of program
 }
