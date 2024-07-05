@@ -1,6 +1,11 @@
 //WAP to add and multiply two matrices of order n*n.
 
 #include<stdio.h>
+
+int add1(int n,int m,int arr1[n][m],int arr2[n][m],int arr3[n][m]);
+
+int mul1(int n,int m,int arr1[n][m],int arr2[n][m],int arr3[n][m]);
+
 int main()
 {
     int i,j,n,m,op;
@@ -15,9 +20,9 @@ int main()
     scanf("%d",&op);
 
     if(op==1){
-        addition(n,m,arr1,arr2,arr3);}
+        add1(n,m,arr1,arr2,arr3);}
     else if(op==2){
-        multiplication(n,m,arr1,arr2,arr3);}
+        mul1(n,m,arr1,arr2,arr3);}
     else{
         printf("\nInvalid operation");}
 
@@ -26,7 +31,7 @@ int main()
 }
 
 
-void addition(int n,int m,int arr1[n][m],int arr2[n][m],int arr3[n][m])
+int add1(int n,int m,int arr1[n][m],int arr2[n][m],int arr3[n][m])
     {
         int i,j;
         //reading first matrix
@@ -44,7 +49,7 @@ void addition(int n,int m,int arr1[n][m],int arr2[n][m],int arr3[n][m])
         printf("Enter the values for second matrix: ");
         for(i=0;i<n;i++)
         {
-        for(j=0;j<m;j++)
+        for(j=0;j<m;j++)     
         {
             scanf("%d",&arr2[i][j]);
         }
@@ -61,12 +66,12 @@ void addition(int n,int m,int arr1[n][m],int arr2[n][m],int arr3[n][m])
             printf("%d ",arr3[i][j]);
         }
         }
-
+    return 0;
 
     }
 
 
-void multiplication(int n,int m,int arr1[n][m],int arr2[n][m],int arr3[n][m])
+int mul1(int n,int m,int arr1[n][m],int arr2[n][m],int arr3[n][m])
     {   
         int i,j,sum=0;
         //reading first matrix
@@ -102,7 +107,7 @@ void multiplication(int n,int m,int arr1[n][m],int arr2[n][m],int arr3[n][m])
             printf("%d ",arr3[i][j]);
         }
         }
-
+    return 0;
 
     }
 
