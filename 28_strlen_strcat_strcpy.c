@@ -28,6 +28,9 @@ int main()
 
     printf("\nsecond string copied to first string = %s",str1);
 
+    //other string functions that can be implemented are strcasecmp(),strcmp(),strncpy(),strncat(),puts()
+    //gets - avoid using this function as it is vulnerable to attacks and attackers manipulate it as it does not perform the bound check
+
     return 0;
     
 }
