@@ -1,5 +1,5 @@
 // Program to check whether the entered number is a prime or not
-#include <stdio.h>
+#include<stdio.h>
 
 int main() {
     int n, i, flag = 1; // Declare variables
